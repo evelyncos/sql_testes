@@ -1,3 +1,26 @@
+--consultando tabela geral
+
 SELECT * FROM tbl_alunos WHERE sit = '6'
 
+--consultando coluna da tabela
+
 SELECT sit FROM tbl_alunos WHERE campus_formação = 'Paulista'
+
+--consultando com condição (AND) (só hávera resultado se as duas condições forem respeitadas)  
+
+select * from tbl_alunos 
+WHERE campus = '0101' 
+AND status = '1'
+
+--consultando com condição (OR) (terá resultado se uma das condições forem respeitadas)
+
+select * from tbl_alunos 
+WHERE status = '8' j
+or status = '5'
+
+
+--consultar mais de uma tabela e criar relacionamento
+
+SELECT * FROM alunos_ead
+INNER JOIN cursos_ead
+ON alunos_ead.semestre_grade = cursos_ead.semestre_grade
