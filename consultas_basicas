@@ -1,0 +1,3 @@
+SELECT * FROM tbl_alunos WHERE sit = '6'
+
+SELECT sit FROM tbl_alunos WHERE campus_formação = 'Paulista'
