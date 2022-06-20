@@ -9,30 +9,94 @@ StartPosition: CenterScreen
 MaximizeBox: False
 FormBorderStyle: Fixed3D
 
-Controle	Name	Text	Maxlength
-GroupBox	gbOpcoes	Opções	btnNovo
-Button	btnNovo	&Novo	btnEditar
-Button	btnEditar	&Editar	btnCancelar
-Button	btnCancelar	&Cancelar	btnPesquisar
-Button	btnPesquisar	&Pesquisar	btnSair
-Button	btnSair	Sai&r	
-GroupBox	gbDados		
-Label	lblCodigo		
-TextBox	txtCodigo		
-Label	lblNome		
-TextBox	txtNome		
-Label	lblCidade		
-TextBox	txtCidade		
-Label	lblTelefone		
-MaskedTextBox	mskTelefone		
-Label	lblEmail		
-TextBox	txtEmail		
-Label	lblCPF		
-MaskedTextBox	mskCPF		
-Label	lblRG		
-TextBox	txtRG		
-Label	lbldataCadastro		
-MaskedTextBox	mskdataCadastro		
-CheckBox	chkSituacao		
+Controle                   
+GroupBox
+Button
+Button
+Button
+Button
+Button
+GroupBox
+Label
+TextBox
+Label
+TextBox
+Label
+TextBox
+Label
+MaskedTextBox
+Label
+TextBox
+Label
+MaskedTextBox
+Label
+TextBox
+Label
+MaskedTextBox
+CheckBox
+
+
+Name
+gbOpcoes
+btnNovo
+btnEditar
+btnCancelar
+btnPesquisar
+btnSair
+gbDados
+lblCodigo
+txtCodigo
+lblNome
+txtNome
+lblCidade
+txtCidade
+lblTelefone
+mskTelefone
+lblEmail
+txtEmail
+lblCPF
+mskCPF
+lblRG
+txtRG
+lbldataCadastro
+mskdataCadastro
+chkSituacao
+
+
+Text
+Opções
+&Novo
+&Editar
+&Cancelar
+&Pesquisar
+Sai&r
+
+Maxlength
+btnNovo
+btnEditar
+btnCancelar
+btnPesquisar
+btnSair
+
+
+
+Dados
+Telefone Mask (99) 0000-0000
+Nome: 40
+Endereco: 30
+dataCadastro Mask 00/00/00
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
