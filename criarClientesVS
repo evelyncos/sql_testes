@@ -44,23 +44,14 @@ btnCancelar
 btnPesquisar
 btnSair
 gbDados
-lblCodigo
-txtCodigo
 lblNome
 txtNome
-lblCidade
-txtCidade
 lblTelefone
 mskTelefone
-lblEmail
-txtEmail
-lblCPF
-mskCPF
-lblRG
-txtRG
+lblendereco
+txtendereco
 lbldataCadastro
 mskdataCadastro
-chkSituacao
 
 
 Text
