@@ -9,28 +9,30 @@ StartPosition: CenterScreen
 MaximizeBox: False
 FormBorderStyle: Fixed3D
 
-Controle	Name	Text	Maxlength	Enabled
-GroupBox	gbOpcoes	Opções	 	 
-Button	btnNovo	&Novo	btnNovo	 
-Button	btnEditar	&Editar	btnEditar	 
-Button	btnCancelar	&Cancelar	btnCancelar	 
-Button	btnPesquisar	&Pesquisar	btnPesquisar	 
-Button	btnSair	Sai&r	btnSair	 
-GroupBox	gbDados	Dados	 	 
-Label	lblCodigo	Código:	 	 
-TextBox	txtCodigo	 	 	False
-Label	lblNome	Nome:	 	 
-TextBox	txtNome	 	40	 
-Label	lblCidade	Cidade:	 	 
-TextBox	txtCidade	 	30	 
-Label	lblTelefone	Telefone:	 	 
-MaskedTextBox	mskTelefone	Mask	(99) 0000-0000
-Label	lblEmail	Email:	 	 
-TextBox	txtEmail	 	 	 
-Label	lblCPF	CPF:	 	 
-MaskedTextBox	mskCPF	Mask	000,000,000-00
-Label	lblRG	RG:	 	 
-TextBox	txtRG	15	 	 
-Label	lbldataCadastro	Dt. Cadastro:	 	 
-MaskedTextBox	mskdataCadastro	Mask	00/00/0000
-CheckBox	chkSituacao	Situação:	 	 
+Controle	Name	Text	Maxlength
+GroupBox	gbOpcoes	Opções	btnNovo
+Button	btnNovo	&Novo	btnEditar
+Button	btnEditar	&Editar	btnCancelar
+Button	btnCancelar	&Cancelar	btnPesquisar
+Button	btnPesquisar	&Pesquisar	btnSair
+Button	btnSair	Sai&r	
+GroupBox	gbDados		
+Label	lblCodigo		
+TextBox	txtCodigo		
+Label	lblNome		
+TextBox	txtNome		
+Label	lblCidade		
+TextBox	txtCidade		
+Label	lblTelefone		
+MaskedTextBox	mskTelefone		
+Label	lblEmail		
+TextBox	txtEmail		
+Label	lblCPF		
+MaskedTextBox	mskCPF		
+Label	lblRG		
+TextBox	txtRG		
+Label	lbldataCadastro		
+MaskedTextBox	mskdataCadastro		
+CheckBox	chkSituacao		
+
+
